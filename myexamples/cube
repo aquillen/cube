@@ -1,0 +1,16 @@
+a1       froot      fileroot
+0.01     dt         timestep  
+0.0      tmax       integrate to this time
+1000000.0     t_print    time between particle printouts
+0.08     b_distance min interparticle distance
+1.1      mush_fac1  times b_distance gives max spring length
+0.3      mush_fac2  times b_distance gives max spring length longer springs
+0.2      mush_fac3  times b_distance gives max spring length longer springs
+2e-3     ks1        short springs spring constant
+1e-3     ks2        longer springs spring constant
+2e-2     ks3        longer springs spring constant
+1.3      ggamma     damping coefficient
+5.0      gamma_fac  mult this by ggamma to have a higher damping rate at the begining
+10.0      t_damp     time to apply higher damping rate
+0.1      surfdist   how far away from top/bottom to apply pressure
+ 0.0     Pressure   for top and bottom
